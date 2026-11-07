@@ -67,11 +67,11 @@
 // Um botão que alterna o tema da página entre claro e escuro usando uma classe no body. O texto do botão também deve mudar ("Modo escuro" / "Modo claro").
 
 
-document.getElementById("btn-tema").addEventListener("click", function () {
+// document.getElementById("btn-tema").addEventListener("click", function () {
 
-    document.body.classList.toggle("escuro");
+//     document.body.classList.toggle("escuro");
 
-    const escuro = document.body.classList.contains(escuro);
+//     const escuro = document.body.classList.contains(escuro);
 
-    botao.textContent = escuro ? "Modo claro" : "Modo escuro"
-})
+//     botao.textContent = escuro ? "Modo claro" : "Modo escuro"
+// });
